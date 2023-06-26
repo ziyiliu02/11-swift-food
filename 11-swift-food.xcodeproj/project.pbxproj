@@ -23,6 +23,8 @@
 		64F32F132A498BCF00D1956F /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F32F112A498BCF00D1956F /* FavoritesView.swift */; };
 		64F32F152A498BD800D1956F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F32F142A498BD800D1956F /* SettingsView.swift */; };
 		64F32F162A498BD800D1956F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F32F142A498BD800D1956F /* SettingsView.swift */; };
+		64F32F182A498DB400D1956F /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F32F172A498DB400D1956F /* TabBar.swift */; };
+		64F32F192A498DB400D1956F /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F32F172A498DB400D1956F /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,7 @@
 		64F32F0E2A498BBD00D1956F /* NewRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecipeView.swift; sourceTree = "<group>"; };
 		64F32F112A498BCF00D1956F /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		64F32F142A498BD800D1956F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		64F32F172A498DB400D1956F /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				64F32EE52A49890E00D1956F /* ContentView.swift */,
+				64F32F172A498DB400D1956F /* TabBar.swift */,
 				64F32F082A4989EE00D1956F /* HomeView.swift */,
 				64F32F0B2A4989FB00D1956F /* CategoriesView.swift */,
 				64F32F0E2A498BBD00D1956F /* NewRecipeView.swift */,
@@ -247,6 +251,7 @@
 				64F32F152A498BD800D1956F /* SettingsView.swift in Sources */,
 				64F32F0C2A4989FB00D1956F /* CategoriesView.swift in Sources */,
 				64F32F0F2A498BBD00D1956F /* NewRecipeView.swift in Sources */,
+				64F32F182A498DB400D1956F /* TabBar.swift in Sources */,
 				64F32F122A498BCF00D1956F /* FavoritesView.swift in Sources */,
 				64F32F092A4989EE00D1956F /* HomeView.swift in Sources */,
 				64F32EF62A49891000D1956F /* ContentView.swift in Sources */,
@@ -261,6 +266,7 @@
 				64F32F162A498BD800D1956F /* SettingsView.swift in Sources */,
 				64F32F0D2A4989FB00D1956F /* CategoriesView.swift in Sources */,
 				64F32F102A498BBD00D1956F /* NewRecipeView.swift in Sources */,
+				64F32F192A498DB400D1956F /* TabBar.swift in Sources */,
 				64F32F132A498BCF00D1956F /* FavoritesView.swift in Sources */,
 				64F32F0A2A4989EE00D1956F /* HomeView.swift in Sources */,
 				64F32EF72A49891000D1956F /* ContentView.swift in Sources */,
