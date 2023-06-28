@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		646A1C812A4C2D1F0056BB8A /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646A1C802A4C2D1F0056BB8A /* RecipeList.swift */; };
 		648B8ABE2A4C0E7400A68D79 /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648B8ABD2A4C0E7400A68D79 /* RecipeCard.swift */; };
 		64F32EF42A49891000D1956F /* _1_swift_foodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F32EE42A49890E00D1956F /* _1_swift_foodApp.swift */; };
 		64F32EF52A49891000D1956F /* _1_swift_foodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F32EE42A49890E00D1956F /* _1_swift_foodApp.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		646A1C802A4C2D1F0056BB8A /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
 		648B8ABD2A4C0E7400A68D79 /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
 		64F32EE42A49890E00D1956F /* _1_swift_foodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1_swift_foodApp.swift; sourceTree = "<group>"; };
 		64F32EE52A49890E00D1956F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				648B8ABD2A4C0E7400A68D79 /* RecipeCard.swift */,
+				646A1C802A4C2D1F0056BB8A /* RecipeList.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				64F32F0F2A498BBD00D1956F /* NewRecipeView.swift in Sources */,
 				64F32F182A498DB400D1956F /* TabBar.swift in Sources */,
 				64F32F122A498BCF00D1956F /* FavoritesView.swift in Sources */,
+				646A1C812A4C2D1F0056BB8A /* RecipeList.swift in Sources */,
 				64F32F092A4989EE00D1956F /* HomeView.swift in Sources */,
 				64F32EF62A49891000D1956F /* ContentView.swift in Sources */,
 				64F32EF42A49891000D1956F /* _1_swift_foodApp.swift in Sources */,
