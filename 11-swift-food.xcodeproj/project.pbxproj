@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		648B8ABE2A4C0E7400A68D79 /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648B8ABD2A4C0E7400A68D79 /* RecipeCard.swift */; };
 		64F32EF42A49891000D1956F /* _1_swift_foodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F32EE42A49890E00D1956F /* _1_swift_foodApp.swift */; };
 		64F32EF52A49891000D1956F /* _1_swift_foodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F32EE42A49890E00D1956F /* _1_swift_foodApp.swift */; };
 		64F32EF62A49891000D1956F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F32EE52A49890E00D1956F /* ContentView.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		648B8ABD2A4C0E7400A68D79 /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
 		64F32EE42A49890E00D1956F /* _1_swift_foodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1_swift_foodApp.swift; sourceTree = "<group>"; };
 		64F32EE52A49890E00D1956F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		64F32EE62A49891000D1956F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 		64F32F072A4989C400D1956F /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				648B8ABD2A4C0E7400A68D79 /* RecipeCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64F32F152A498BD800D1956F /* SettingsView.swift in Sources */,
+				648B8ABE2A4C0E7400A68D79 /* RecipeCard.swift in Sources */,
 				64F32F0C2A4989FB00D1956F /* CategoriesView.swift in Sources */,
 				64F32F0F2A498BBD00D1956F /* NewRecipeView.swift in Sources */,
 				64F32F182A498DB400D1956F /* TabBar.swift in Sources */,
