@@ -25,6 +25,8 @@
 		64F32F162A498BD800D1956F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F32F142A498BD800D1956F /* SettingsView.swift */; };
 		64F32F182A498DB400D1956F /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F32F172A498DB400D1956F /* TabBar.swift */; };
 		64F32F192A498DB400D1956F /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F32F172A498DB400D1956F /* TabBar.swift */; };
+		64F32F1B2A49BFE700D1956F /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F32F1A2A49BFE600D1956F /* RecipeModel.swift */; };
+		64F32F1C2A49BFE700D1956F /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F32F1A2A49BFE600D1956F /* RecipeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,7 @@
 		64F32F112A498BCF00D1956F /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		64F32F142A498BD800D1956F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		64F32F172A498DB400D1956F /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		64F32F1A2A49BFE600D1956F /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,7 @@
 		64F32F042A4989A800D1956F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				64F32F1A2A49BFE600D1956F /* RecipeModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -256,6 +260,7 @@
 				64F32F092A4989EE00D1956F /* HomeView.swift in Sources */,
 				64F32EF62A49891000D1956F /* ContentView.swift in Sources */,
 				64F32EF42A49891000D1956F /* _1_swift_foodApp.swift in Sources */,
+				64F32F1B2A49BFE700D1956F /* RecipeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +276,7 @@
 				64F32F0A2A4989EE00D1956F /* HomeView.swift in Sources */,
 				64F32EF72A49891000D1956F /* ContentView.swift in Sources */,
 				64F32EF52A49891000D1956F /* _1_swift_foodApp.swift in Sources */,
+				64F32F1C2A49BFE700D1956F /* RecipeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
