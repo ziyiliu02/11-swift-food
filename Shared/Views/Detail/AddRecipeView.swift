@@ -45,6 +45,27 @@ struct AddRecipeView: View {
                     TextEditor(text: $directions)
                 }
             }
+            .toolbar(content: {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button {
+                        <#code#>
+                    } label: {
+                        Label("Cancel", systemImage: "xmark")
+                            .labelStyle(.iconOnly)
+                    }
+
+                }
+                
+                ToolbarItem {
+                    Button {
+                        <#code#>
+                    } label: {
+                        Label("Done", systemImage: "checkmark")
+                            .labelStyle(.iconOnly)
+                    }
+
+                }
+            })
             .navigationTitle("New Recipe")
             .navigationBarTitleDisplayMode(.inline)
         }
