@@ -48,7 +48,7 @@ struct AddRecipeView: View {
             .toolbar(content: {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button {
-                        <#code#>
+                        print("Cancel")
                     } label: {
                         Label("Cancel", systemImage: "xmark")
                             .labelStyle(.iconOnly)
@@ -58,11 +58,12 @@ struct AddRecipeView: View {
                 
                 ToolbarItem {
                     Button {
-                        <#code#>
+                        print("Done")
                     } label: {
                         Label("Done", systemImage: "checkmark")
                             .labelStyle(.iconOnly)
                     }
+                    .disabled(name.isEmpty)
 
                 }
             })
