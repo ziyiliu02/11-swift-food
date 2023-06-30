@@ -92,7 +92,14 @@ struct AddRecipeView_Previews: PreviewProvider {
 
 extension AddRecipeView {
     private func saveRecipe() {
-        let recipe = Recipe(name: name, image: "", description: description, ingredients: ingredients, directions: directions, category: selectedCategory.rawValue, datePublished: "", url: "")
+        let now = Date()
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-mm-dd"
+        
+        let datePublished = dateFormatter.string(from: now)
+        
+        let recipe = Recipe(name: name, image: "", description: description, ingredients: ingredients, directions: directions, category: selectedCategory.rawValue, datePublished: datePublished, url: "")
         
         recipesVM.addRecipe(recipe: recipe)
     }
